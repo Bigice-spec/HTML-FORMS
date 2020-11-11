@@ -9,8 +9,8 @@ body{
     display: flex;
     flex-direction: row;
     float:right;
-    margin-right: 2vw;
-    margin-top: 2vh;
+    margin-right: 20px;
+    margin-top: 13px;
 }
 .signin2{
     display: flex;
@@ -18,11 +18,11 @@ body{
     font-size: 14px;
 }
 .signin3{
-    margin-left: 1vw;
+    margin-left: 10px;
 }
 .signin3 button{
     padding: 6px 15px;
-    width: 12vw;
+    width: 120px;
     background-color: royalblue;
     color: white;
     font-size: 16px;
@@ -34,8 +34,8 @@ body{
 .logo{
     display: flex;
     justify-content: center;
-    margin-top: 4vh;
-    margin-bottom: 2vh;
+    margin-top: 26px;
+    margin-bottom: 13px;
 }
 .logo img{
     width: 10vw;
@@ -44,25 +44,25 @@ body{
 .icons{
     display: flex;
     flex-direction: row;
-    width: 39vw;
+    width: 390px;
     justify-content: space-evenly;
-    margin-left: 30vw;
+    margin-left: 300px;
     text-align: center;
     font-size: large;
     margin-bottom: 2vh;
 }
 .icons label{
-    margin-left: .5vw;
+    margin-left: 5px;
     text-align: center;
 }
 #mint{
-    height: 4vh;
+    height: 26px;
 }
 #quickbooks{
-    height: 4vh;
+    height: 26px;
 }
 #turbotax{
-    height: 4vh;
+    height: 26px;
 }
 .form{
     display: flex;
@@ -72,8 +72,8 @@ body{
 form{
     border: 1px solid grey;
     display: flex;
-    width: 39vw;
-    height: 92vh;
+    width: 390px;
+    height: 600px;
     background-color: white;
 }
 input[type=email],input[type=tel], input[type=password]{
@@ -82,17 +82,17 @@ input[type=email],input[type=tel], input[type=password]{
     display: flex;
     border: 1px solid #ccc;
     box-sizing: border-box;
-    margin-left: 4vw;
-    margin-top: 2vh;
+    margin-left: 40px;
+    margin-top: 10px;
     border-radius: 5px;
     outline: 0 solid transparent;
   }
   p{
-    margin-left: 4vw;
+    margin-left: 40px;
   }
   label{
-    margin-left: 4vw;
-    margin-top: 3vh;
+    margin-left: 40px;
+    margin-top: 13px;
   }
   .container span{
     text-align: center;
@@ -108,24 +108,28 @@ input[type=email],input[type=tel], input[type=password]{
     padding: 15px 20px;
     border: none;
     cursor: pointer;
-    margin-left: 4vw;
-    margin-top: 4vh;
+    margin-left: 40px;
+    margin-top: 26px;
     width: 80%;
-    margin-bottom: 4vh;
+    margin-bottom: 26px;
     font-size: 18px;
     border-radius: 5px;
     outline: 0 solid transparent;
   }
   .statement{
-      font-size: small;
-      margin-left: 3vw;
-      width: 80%;
+      display: flex;
+      flex-direction: column;
+      width: 90%;
+      margin-left: 20px;
+  }
+  .statement span{
       font-style: italic;
+      font-size: small;
   }
   .myfooter {
-    margin-top: 6.3vh;
+    margin-top: 60px;
     width: 100%;
-    height: 7.5vh;
+    height: 50px;
     padding-bottom: 0;
     background-color:gainsboro;
     font-size: 12px;
@@ -133,17 +137,17 @@ input[type=email],input[type=tel], input[type=password]{
     justify-content: center;
   }
   .myfooter span{
-      margin-top: 2vh;
+      margin-top: 13px;
   }
   .info{
       display: flex;
       flex-direction: column;
       align-items: center;
       font-size: 14px;
-      margin-top: 4vh;
+      margin-top: 26px;
   }
   .info span{
-      margin-bottom: 0.5vh;
+      margin-bottom: 3px;
   }
   .footerButton button{
     font-family: inherit;
@@ -154,7 +158,7 @@ input[type=email],input[type=tel], input[type=password]{
     cursor: pointer;
     position: fixed;
     bottom: 0px;
-    right: 5%;
+    right: 4%;
     z-index: 3;
     display: block;
     text-align: center;
@@ -162,7 +166,7 @@ input[type=email],input[type=tel], input[type=password]{
     border: none;
     outline: 0 solid transparent;
     padding: 10px 15px;
-    width: 15vw;
+    width: 150px;
   }
 
   
